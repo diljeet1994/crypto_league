@@ -2,8 +2,7 @@ runtime: python27
 api_version: 1
 threadsafe: true
 vm: true
+
 handlers:
-- url: /.*
+- url: .*
   script: main.app
-skip_files:
-  - ^node_modules/.*
