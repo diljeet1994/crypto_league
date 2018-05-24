@@ -1,4 +1,0 @@
-cron:
-    - description: "regular job"
-      url: /hourly
-      schedule: every 10 mins
