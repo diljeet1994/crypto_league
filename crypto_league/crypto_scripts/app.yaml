@@ -1,7 +1,7 @@
-runtime: python36
+runtime: python
 api_version: 1
 threadsafe: true
 vm: true
 handlers:
-- url: .*
+- url: /.*
   script: main.app
